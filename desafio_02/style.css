@@ -1,37 +1,20 @@
-body {
-    margin: 0;
-  
-    font-family: "Open Sans", sans-serif;
-  
-    background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
-  
-    min-height: 100vh;
-  }
-  
-  .page {
-    width: 1008px;
-    margin: 0 auto;
-    padding-top: 65px;
-  }
-  
   nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  
-    margin-bottom: 15px;
-  }
+    }
   
   ul {
     display: flex;
     list-style: none;
+    gap: 48px;
+    align-items: center;
     margin: 0;
     padding: 0;
   }
   
   a {
-    color: #1f1534;
     text-decoration: none;
+    color: #1F1534;
   }
   
   ul li a {
@@ -43,10 +26,9 @@ body {
     opacity: 1;
   }
   
-  h1,
-  ul {
+  h1, ul {
     font-family: "Mulish", sans-serif;
-    gap: 48px;
+    /* gap: 48px; */
   }
 
   main {
@@ -55,59 +37,68 @@ body {
     justify-content: space-between;
   }
 
-
-  
   h1 {
     font-size: 49px;
     line-height: 56px;
-    color: #1f1534;
-  
+    color: #1F1534;
     font-weight: normal;
-  
     width: 490px;
   }
   
   h1 span {
-    color: #89c5cc;
+    color: #89C5CC;
     font-weight: bold;
   }
+
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+  }
+  .page {
+    width: 1000px;  
+    margin: 0 auto;
+    padding-top: 65px;
+  }
   
-  section p {
+    section p {
     font-size: 14px;
     line-height: 28px;
     color: #7d7987;
-  
     margin: 40px 0;
   }
   
   button {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
-  
+    color: #F9F9F9;
     background: #69B99D;
     border: 0;
-    padding: 0 50px 30px;
+    padding: 14px 32px 15px;
   
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-  
+   
+
     border-radius: 4px;
-  
     cursor: pointer;
   }
   
   button:hover {
       background: #4EA788;
+      
   }
   
   footer {
+    text-align: center;
+    margin-top: 80px;
     font-size: 14px;
     line-height: 28px;
-  
-    text-align: center;
-  
-    margin-top: 80px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
   }
   
   footer a {
@@ -115,7 +106,7 @@ body {
   }
   
   #balls {
+      position: fixed;
       bottom: 0;
       right: 0;
   }
-  
