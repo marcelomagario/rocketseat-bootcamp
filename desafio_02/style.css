@@ -9,14 +9,14 @@ body {
   }
   
   .page {
-    width: 600px;
+    width: 1008px;
     margin: 0 auto;
     padding-top: 65px;
   }
   
   nav {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
   
     margin-bottom: 15px;
@@ -46,7 +46,16 @@ body {
   h1,
   ul {
     font-family: "Mulish", sans-serif;
+    gap: 48px;
   }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
   
   h1 {
     font-size: 49px;
