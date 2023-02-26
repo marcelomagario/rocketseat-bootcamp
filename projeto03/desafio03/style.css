@@ -222,37 +222,40 @@ color: #535971;
 
 
 footer {
-    background: #F0F0F4;
+   
+    background: #535971;
     
-    height: 136px;
-  
+    height: 160px;
+    
     display: flex;
     flex-direction: column;
-
+    
     padding: 40px 64px;
     margin-bottom: 100px;
-
+    
+    border-radius: 0px 0px 20px 20px;
     border-top: 1px solid #d6d6d6;
-    border-radius: 0 0 8px 8px;
 }
 
 footer .button {
     height: 56px;
-    background: #04D361;
+    background: #FF5374;
     border: 0;
-    border-radius: 8px;
+    border-radius: 20px;
 
-    font-family: 'Archivo';
+    font-family: 'Staatliches';
     color: #FFFFFF;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 26px;
 }
 
 footer .button:hover {
-    background-color: #03622e;
+    background-color: #9a3146;
 }
 
 input:invalid {
     border: 2px solid #FF1010;
 }
+
+
