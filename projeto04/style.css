@@ -21,17 +21,12 @@ body {
     font-family: 'Epilogue', sans-serif;
 }
 
-main p:first-child {
-    color: #7158EF;
-
-    font-size: 1.6rem;
-    line-height: 3.2rem;
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
-    margin-bottom: 1.7rem;
+main {
+    max-width: 33.0rem;
 }
 
 h1 {
+    font-weight: 800;
     font-size: 4.0rem;
     line-height: 4.8rem;
     color: #090039;
@@ -45,6 +40,17 @@ h1 + p {
 
     margin-bottom: 3.2rem;   
 }
+
+main p:first-child {
+    color: #7158EF;
+
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1.7rem;
+}
+
 
 a {
     color:#090039;
@@ -60,26 +66,23 @@ ul {
     margin-top: 7.2rem;
 }
 
-ul li span {
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 7.2rem;
-    line-height: 8rem;
-    letter-spacing: -2px;
-    color: #090039;
-
-    
-}
-
 ul li {
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.2rem;
+    color: #090039;  
+
+    max-width: 25.7rem;
+    display: flex;
+    gap: 3.8rem;
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
     color: #090039;
 
-    
     
 }
