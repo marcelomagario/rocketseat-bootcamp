@@ -82,7 +82,13 @@ ul li span {
     font-size: 7.2rem;
     line-height: 8.0rem;
     letter-spacing: -2px;
-    color: #090039;
+    color: #090039;   
+}
 
-    
+/* Media queries */
+
+@media (min-width: 500px) {
+    body { 
+        background-color: black;
+    }
 }
